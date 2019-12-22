@@ -86,7 +86,7 @@ function displayIsInClientInfo() {
         document.getElementById('liffLogoutButton').classList.toggle('hidden');
         document.getElementById('isInClientMessage').textContent = 'Kamu buka game ini di Line web browser.';
     } else {
-        document.getElementById('isInClientMessage').textContent = 'Kamu buka game ini di browser lain.';
+        document.getElementById('isInClientMessage').textContent = 'Kamu buka game ini di browser.';
     }
 }
 
