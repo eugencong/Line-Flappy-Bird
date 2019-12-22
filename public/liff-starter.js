@@ -110,12 +110,7 @@ function registerButtonHandlers() {
         });
     });
 
-        document.getElementById('openWindowButton1').addEventListener('click', function() {
-        liff.openWindow({
-            url: 'https://game-flappy.herokuapp.com',
-            external: false
-        });
-    });
+
 
     // closeWindow call
     document.getElementById('closeWindowButton').addEventListener('click', function() {
