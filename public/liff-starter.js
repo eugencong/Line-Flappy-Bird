@@ -105,12 +105,10 @@ function registerButtonHandlers() {
     // openWindow call
     document.getElementById('openWindowButton').addEventListener('click', function() {
         liff.openWindow({
-            url: 'https://game-flappy.herokuapp.com',
+            url: 'https://line.me',
             external: true
         });
     });
-
-
 
     // closeWindow call
     document.getElementById('closeWindowButton').addEventListener('click', function() {
@@ -128,7 +126,7 @@ function registerButtonHandlers() {
         } else {
             liff.sendMessages([{
                 'type': 'text',
-                'text': "Ayo bermain flappy bird di aplikasi ini line://app/1653680412-d77010gA "
+                'text': "You've successfully sent a message! Hooray!"
             }]).then(function() {
                 window.alert('Message sent');
             }).catch(function(error) {
