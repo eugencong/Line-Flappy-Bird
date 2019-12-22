@@ -19,6 +19,10 @@
                     <button id="closeWindowButton">Matikan Aplikasi</button>
                     <button id="sendMessageButton">Send Message Ke Grup</button>
                 </div>
+                <div class="buttonRow">
+                    <button id="getAccessToken">Get Access Token</button>
+                    <button id="getProfileButton">Get Profile</button>
+                </div>
             </div>
             <!-- ACCESS TOKEN DATA -->
             <div id="accessTokenData" class="hidden textLeft">
@@ -64,7 +68,31 @@
                 </table>
             </div>
             <!-- LIFF DATA -->
-            
+            <div id="liffData">
+                <h2 id="liffDataHeader" class="textLeft">LIFF Data</h2>
+                <table>
+                    <tr>
+                        <th>OS</th>
+                        <td id="deviceOS" class="textLeft"></td>
+                    </tr>
+                    <tr>
+                        <th>Language</th>
+                        <td id="browserLanguage" class="textLeft"></td>
+                    </tr>
+                    <tr>
+                        <th>LIFF SDK Version</th>
+                        <td id="sdkVersion" class="textLeft"></td>
+                    </tr>
+                    <tr>
+                        <th>isInClient</th>
+                        <td id="isInClient" class="textLeft"></td>
+                    </tr>
+                    <tr>
+                        <th>isLoggedIn</th>
+                        <td id="isLoggedIn" class="textLeft"></td>
+                    </tr>
+                </table>
+            </div>
             <!-- LOGIN LOGOUT BUTTONS -->
             <div class="buttonGroup">
                 <button id="liffLoginButton">Log in</button>
