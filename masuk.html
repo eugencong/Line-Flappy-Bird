@@ -3,8 +3,8 @@
  
 <head>
 	<title>Flappy Bird</title>
-	<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 	<div class="buttonRow">
@@ -13,21 +13,4 @@
                 <div><button id="openWindowButton1" class="openWindowButton1">Klik disini untuk bermain di external browser</button></div>
 </body>
 <script src="https://static.line-scdn.net/liff/edge/2.1/sdk.js"></script> 
-<script type="text/javascript">
-    function registerButtonHandlers() {
-    document.getElementById('openWindowButton').addEventListener('click', function() {
-        liff.openWindow({
-            url: 'game/index.html', // Isi dengan Endpoint URL aplikasi web Anda
-            external: false
-        });
-    });
-}
-function registerButtonHandlers() {
-        document.getElementById('openWindowButton1').addEventListener('click', function() {
-        liff.openWindow({
-            url: 'game/index.html', // Isi dengan Endpoint URL aplikasi web Anda
-            external: true
-        });
-    });
-}
-</script>
+ <script src="starter.js"></script>
