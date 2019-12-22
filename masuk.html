@@ -14,17 +14,20 @@
 </body>
 <script src="https://static.line-scdn.net/liff/edge/2.1/sdk.js"></script> 
 <script type="text/javascript">
+    function registerButtonHandlers() {
     document.getElementById('openWindowButton').addEventListener('click', function() {
         liff.openWindow({
             url: 'game/index.html', // Isi dengan Endpoint URL aplikasi web Anda
             external: false
         });
     });
+}
+function registerButtonHandlers() {
         document.getElementById('openWindowButton1').addEventListener('click', function() {
         liff.openWindow({
             url: 'game/index.html', // Isi dengan Endpoint URL aplikasi web Anda
             external: true
         });
     });
-
+}
 </script>
