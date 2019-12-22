@@ -106,7 +106,7 @@ function registerButtonHandlers() {
     document.getElementById('openWindowButton').addEventListener('click', function() {
         liff.openWindow({
             url: 'https://game-flappy.herokuapp.com',
-            external: true
+            external: false
         });
     });
 
